@@ -7,9 +7,6 @@ import { IBusStation } from './interfaces/interfaces';
 function App() {
   const [busStations,setBusStations] = useState<IBusStation[]>([]);
 
-  console.log(busStations)
-
-
   return (
     <div className='app'>
       <Form setBusStations={setBusStations}/>
